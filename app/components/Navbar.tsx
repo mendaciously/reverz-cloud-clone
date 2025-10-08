@@ -13,7 +13,7 @@ const Navbar = () => {
     };
 
     return (
-        <header className="bg-white">
+        <header className="z-50 fixed w-full bg-white">
             <div className="border-b border-b-slate-200">
                 <LayoutWrapper className="flex items-center justify-between py-4">
                     <h1 className="text-2xl font-semibold">Startup</h1>
